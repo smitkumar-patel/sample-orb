@@ -1,7 +1,7 @@
 version: 2.1
 
 description: >
-  This orb will eventually run our our docker image. A B
+  This orb will eventually run our our docker image. A B C
   Docker image for example can be a node docker image that has can take in parameters named ids
   Example npm start -- --ids "10,20,30,40"
 # What will your orb allow users to accomplish?
