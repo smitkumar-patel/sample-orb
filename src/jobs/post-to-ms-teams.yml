@@ -1,3 +1,6 @@
+description: >
+  This is a simple job that uses command run-app
+
 executor: deployment-app
 
 working_directory: /user/src/app

@@ -1,3 +1,6 @@
+description: >
+  This is a simple command that prints node version and run the node app passed with parameters
+
 parameters:
   ids:
     type: string

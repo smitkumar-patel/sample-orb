@@ -1,2 +1,5 @@
+description: >
+  This is a sample custom node docker image
+
 docker:
   - image: smitkumarpatel/sample:v1.0.0
