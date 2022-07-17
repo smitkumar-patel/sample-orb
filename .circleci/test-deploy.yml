@@ -24,7 +24,7 @@ workflows:
           pub-type: production
           requires:
             - orb-tools/pack
-            - command-tests
+            - test-orb/post-to-ms-teams
           context: orb-publishing
           filters:
             branches:
