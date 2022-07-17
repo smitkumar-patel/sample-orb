@@ -1,0 +1,11 @@
+parameters:
+  ids:
+    type: string
+
+steps:
+  - run:
+      name: node version check
+      command: node --version
+  - run:
+      name: run node app
+      command: npm start -- --ids << parameters.ids >>

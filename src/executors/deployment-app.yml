@@ -1,0 +1,2 @@
+docker:
+  - image: smitkumarpatel/sample:v1.0.0
