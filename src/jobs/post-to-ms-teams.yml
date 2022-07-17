@@ -1,0 +1,11 @@
+executor: deployment-app
+
+working_directory: /user/src/app
+
+parameters:
+  ids:
+    type: string
+
+steps:
+  - run-app:
+      ids: << parameters.ids >>

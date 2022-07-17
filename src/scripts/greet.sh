@@ -1,2 +1,2 @@
 #!/bin/bash
-echo Hello "${PARAM_TO} OK"
+echo Hello "${PARAM_TO}"
