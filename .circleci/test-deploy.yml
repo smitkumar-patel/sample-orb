@@ -6,6 +6,9 @@ orbs:
 filters: &filters
   tags:
     only: /.*/
+  branches:
+    only:
+      - main
 
 jobs:
   # Create a job to test the commands of your orbs.
